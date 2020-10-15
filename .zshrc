@@ -71,10 +71,11 @@ plugins=(
 	pip 
 	pipenv 
 	sudo
-	conda
+	conda-zsh-completion
 )
 
 source $ZSH/oh-my-zsh.sh
+autoload -U compinit && compinit
 
 # User configuration
 
